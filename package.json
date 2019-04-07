@@ -48,6 +48,9 @@
     }
   },
   "xo": {
-    "space": true
+    "space": true,
+    "rules": {
+      "unicorn/filename-case": 0
+    }
   }
 }
