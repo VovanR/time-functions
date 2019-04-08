@@ -4,7 +4,7 @@ const {
 
 /**
  * @param {number} minutes
- * @returns {number}
+ * @returns {number} hours
  *
  * @example
  * minutesToHours(60);

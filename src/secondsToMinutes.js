@@ -4,7 +4,7 @@ const {
 
 /**
  * @param {number} seconds
- * @returns {number}
+ * @returns {number} minutes
  *
  * @example
  * secondsToMinutes(60);

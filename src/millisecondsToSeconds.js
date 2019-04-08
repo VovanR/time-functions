@@ -4,7 +4,7 @@ const {
 
 /**
  * @param {number} milliseconds
- * @returns {number}
+ * @returns {number} seconds
  *
  * @example
  * millisecondsToSeconds(1000);

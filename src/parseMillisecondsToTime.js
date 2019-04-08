@@ -7,7 +7,7 @@ const minutesToHours = require('./minutesToHours');
 
 /**
  * @param {number} milliseconds
- * @returns {{minutes: {number}, hours: {number}}
+ * @returns {{minutes: number, hours: number}} time object
  *
  * @example
  * parseMillisecondsToTime(((1 * 60) + 15) * 60 * 1000);

@@ -9,7 +9,7 @@ const MILLISECONDS_IN_ONE_DAY = secondsToMilliseconds(minutesToSeconds(hoursToMi
 
 /**
  * @param {number} milliseconds
- * @returns {number}
+ * @returns {number} milliseconds
  *
  * @example
  * normalizeCycledMilliseconds();
