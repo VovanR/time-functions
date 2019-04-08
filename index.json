@@ -1,0 +1,1250 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/constants.js",
+    "content": "/** @constant {number} */\nconst MILLISECONDS_IN_ONE_SECOND = 1000;\n\n/** @constant {number} */\nconst SECONDS_IN_ONE_MINUTE = 60;\n\n/** @constant {number} */\nconst MINUTES_IN_ONE_HOUR = 60;\n\n/** @constant {number} */\nconst HOURS_IN_ONE_DAY = 24;\n\nexport {\n  MILLISECONDS_IN_ONE_SECOND,\n  SECONDS_IN_ONE_MINUTE,\n  MINUTES_IN_ONE_HOUR,\n  HOURS_IN_ONE_DAY\n};\n",
+    "static": true,
+    "longname": "E:/work/time-functions/src/constants.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "variable",
+    "name": "MILLISECONDS_IN_ONE_SECOND",
+    "memberof": "src/constants.js",
+    "static": true,
+    "longname": "src/constants.js~MILLISECONDS_IN_ONE_SECOND",
+    "access": "public",
+    "export": true,
+    "importPath": "time-functions/src/constants.js",
+    "importStyle": "{MILLISECONDS_IN_ONE_SECOND}",
+    "description": null,
+    "lineNumber": 2,
+    "unknown": [
+      {
+        "tagName": "@constant",
+        "tagValue": "{number}"
+      }
+    ],
+    "type": {
+      "types": [
+        "number"
+      ]
+    }
+  },
+  {
+    "__docId__": 50,
+    "kind": "variable",
+    "name": "SECONDS_IN_ONE_MINUTE",
+    "memberof": "src/constants.js",
+    "static": true,
+    "longname": "src/constants.js~SECONDS_IN_ONE_MINUTE",
+    "access": "public",
+    "export": true,
+    "importPath": "time-functions/src/constants.js",
+    "importStyle": "{SECONDS_IN_ONE_MINUTE}",
+    "description": null,
+    "lineNumber": 5,
+    "unknown": [
+      {
+        "tagName": "@constant",
+        "tagValue": "{number}"
+      }
+    ],
+    "type": {
+      "types": [
+        "number"
+      ]
+    }
+  },
+  {
+    "__docId__": 51,
+    "kind": "variable",
+    "name": "MINUTES_IN_ONE_HOUR",
+    "memberof": "src/constants.js",
+    "static": true,
+    "longname": "src/constants.js~MINUTES_IN_ONE_HOUR",
+    "access": "public",
+    "export": true,
+    "importPath": "time-functions/src/constants.js",
+    "importStyle": "{MINUTES_IN_ONE_HOUR}",
+    "description": null,
+    "lineNumber": 8,
+    "unknown": [
+      {
+        "tagName": "@constant",
+        "tagValue": "{number}"
+      }
+    ],
+    "type": {
+      "types": [
+        "number"
+      ]
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "variable",
+    "name": "HOURS_IN_ONE_DAY",
+    "memberof": "src/constants.js",
+    "static": true,
+    "longname": "src/constants.js~HOURS_IN_ONE_DAY",
+    "access": "public",
+    "export": true,
+    "importPath": "time-functions/src/constants.js",
+    "importStyle": "{HOURS_IN_ONE_DAY}",
+    "description": null,
+    "lineNumber": 11,
+    "unknown": [
+      {
+        "tagName": "@constant",
+        "tagValue": "{number}"
+      }
+    ],
+    "type": {
+      "types": [
+        "number"
+      ]
+    }
+  },
+  {
+    "__docId__": 53,
+    "kind": "file",
+    "name": "src/hoursToMinutes.js",
+    "content": "import {MINUTES_IN_ONE_HOUR} from './constants';\n\n/**\n * Convert hours to minutes\n *\n * @param {number} hours Hours\n * @returns {number} Minutes\n *\n * @example\n * hoursToMinutes(1);\n * //=> 60\n */\nfunction hoursToMinutes(hours) {\n  return hours * MINUTES_IN_ONE_HOUR;\n}\n\nexport default hoursToMinutes;\n",
+    "static": true,
+    "longname": "E:/work/time-functions/src/hoursToMinutes.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 54,
+    "kind": "function",
+    "name": "hoursToMinutes",
+    "memberof": "src/hoursToMinutes.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/hoursToMinutes.js~hoursToMinutes",
+    "access": "public",
+    "export": true,
+    "importPath": "time-functions/src/hoursToMinutes.js",
+    "importStyle": "hoursToMinutes",
+    "description": "Convert hours to minutes",
+    "examples": [
+      "hoursToMinutes(1);\n//=> 60"
+    ],
+    "lineNumber": 13,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{number} Minutes"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "hours",
+        "description": "Hours"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "Minutes"
+    }
+  },
+  {
+    "__docId__": 55,
+    "kind": "file",
+    "name": "src/millisecondsToSeconds.js",
+    "content": "import {MILLISECONDS_IN_ONE_SECOND} from './constants';\n\n/**\n * Convert milliseconds to seconds\n *\n * @param {number} milliseconds Milliseconds\n * @returns {number} Seconds\n *\n * @example\n * millisecondsToSeconds(1000);\n * //=> 1\n */\nfunction millisecondsToSeconds(milliseconds) {\n  return milliseconds / MILLISECONDS_IN_ONE_SECOND;\n}\n\nexport default millisecondsToSeconds;\n",
+    "static": true,
+    "longname": "E:/work/time-functions/src/millisecondsToSeconds.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 56,
+    "kind": "function",
+    "name": "millisecondsToSeconds",
+    "memberof": "src/millisecondsToSeconds.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/millisecondsToSeconds.js~millisecondsToSeconds",
+    "access": "public",
+    "export": true,
+    "importPath": "time-functions/src/millisecondsToSeconds.js",
+    "importStyle": "millisecondsToSeconds",
+    "description": "Convert milliseconds to seconds",
+    "examples": [
+      "millisecondsToSeconds(1000);\n//=> 1"
+    ],
+    "lineNumber": 13,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{number} Seconds"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "milliseconds",
+        "description": "Milliseconds"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "Seconds"
+    }
+  },
+  {
+    "__docId__": 57,
+    "kind": "file",
+    "name": "src/minutesToHours.js",
+    "content": "import {MINUTES_IN_ONE_HOUR} from './constants';\n\n/**\n * Convert minutes to hours\n *\n * @param {number} minutes Minutes\n * @returns {number} Hours\n *\n * @example\n * minutesToHours(60);\n * //=> 1\n */\nfunction minutesToHours(minutes) {\n  return minutes / MINUTES_IN_ONE_HOUR;\n}\n\nexport default minutesToHours;\n",
+    "static": true,
+    "longname": "E:/work/time-functions/src/minutesToHours.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 58,
+    "kind": "function",
+    "name": "minutesToHours",
+    "memberof": "src/minutesToHours.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/minutesToHours.js~minutesToHours",
+    "access": "public",
+    "export": true,
+    "importPath": "time-functions/src/minutesToHours.js",
+    "importStyle": "minutesToHours",
+    "description": "Convert minutes to hours",
+    "examples": [
+      "minutesToHours(60);\n//=> 1"
+    ],
+    "lineNumber": 13,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{number} Hours"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "minutes",
+        "description": "Minutes"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "Hours"
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "file",
+    "name": "src/minutesToSeconds.js",
+    "content": "import {SECONDS_IN_ONE_MINUTE} from './constants';\n\n/**\n * Convert minutes to seconds\n *\n * @param {number} minutes Minutes\n * @returns {number} Seconds\n *\n * @example\n * minutesToSeconds(1);\n * //=> 60\n */\nfunction minutesToSeconds(minutes) {\n  return minutes * SECONDS_IN_ONE_MINUTE;\n}\n\nexport default minutesToSeconds;\n",
+    "static": true,
+    "longname": "E:/work/time-functions/src/minutesToSeconds.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 60,
+    "kind": "function",
+    "name": "minutesToSeconds",
+    "memberof": "src/minutesToSeconds.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/minutesToSeconds.js~minutesToSeconds",
+    "access": "public",
+    "export": true,
+    "importPath": "time-functions/src/minutesToSeconds.js",
+    "importStyle": "minutesToSeconds",
+    "description": "Convert minutes to seconds",
+    "examples": [
+      "minutesToSeconds(1);\n//=> 60"
+    ],
+    "lineNumber": 13,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{number} Seconds"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "minutes",
+        "description": "Minutes"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "Seconds"
+    }
+  },
+  {
+    "__docId__": 61,
+    "kind": "file",
+    "name": "src/normalizeCycledMilliseconds.js",
+    "content": "import {HOURS_IN_ONE_DAY} from './constants';\nimport secondsToMilliseconds from './secondsToMilliseconds';\nimport minutesToSeconds from './minutesToSeconds';\nimport hoursToMinutes from './hoursToMinutes';\n\nconst MILLISECONDS_IN_ONE_DAY = secondsToMilliseconds(minutesToSeconds(hoursToMinutes(HOURS_IN_ONE_DAY)));\n\n/**\n * Cycle milliseconds within one day\n *\n * @param {number} milliseconds Milliseconds\n * @returns {number} Milliseconds\n *\n * @example\n * normalizeCycledMilliseconds((24 * 60 * 60 * 1000) + 5000);\n * //=> 5000\n */\nfunction normalizeCycledMilliseconds(milliseconds) {\n  if (milliseconds >= 0) {\n    if (milliseconds < MILLISECONDS_IN_ONE_DAY) {\n      return milliseconds;\n    }\n\n    return milliseconds % MILLISECONDS_IN_ONE_DAY;\n  }\n\n  if (milliseconds > -(MILLISECONDS_IN_ONE_DAY)) {\n    return MILLISECONDS_IN_ONE_DAY + milliseconds;\n  }\n\n  return MILLISECONDS_IN_ONE_DAY + (milliseconds % MILLISECONDS_IN_ONE_DAY);\n}\n\nexport default normalizeCycledMilliseconds;\n",
+    "static": true,
+    "longname": "E:/work/time-functions/src/normalizeCycledMilliseconds.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 62,
+    "kind": "variable",
+    "name": "MILLISECONDS_IN_ONE_DAY",
+    "memberof": "src/normalizeCycledMilliseconds.js",
+    "static": true,
+    "longname": "src/normalizeCycledMilliseconds.js~MILLISECONDS_IN_ONE_DAY",
+    "access": "public",
+    "export": false,
+    "importPath": "time-functions/src/normalizeCycledMilliseconds.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 63,
+    "kind": "function",
+    "name": "normalizeCycledMilliseconds",
+    "memberof": "src/normalizeCycledMilliseconds.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/normalizeCycledMilliseconds.js~normalizeCycledMilliseconds",
+    "access": "public",
+    "export": true,
+    "importPath": "time-functions/src/normalizeCycledMilliseconds.js",
+    "importStyle": "normalizeCycledMilliseconds",
+    "description": "Cycle milliseconds within one day",
+    "examples": [
+      "normalizeCycledMilliseconds((24 * 60 * 60 * 1000) + 5000);\n//=> 5000"
+    ],
+    "lineNumber": 18,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{number} Milliseconds"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "milliseconds",
+        "description": "Milliseconds"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "Milliseconds"
+    }
+  },
+  {
+    "__docId__": 64,
+    "kind": "file",
+    "name": "src/parseMillisecondsToTime.js",
+    "content": "import {MINUTES_IN_ONE_HOUR} from './constants';\nimport secondsToMinutes from './secondsToMinutes';\nimport millisecondsToSeconds from './millisecondsToSeconds';\nimport minutesToHours from './minutesToHours';\n\n/**\n * Convert milliseconds to hours and minutes\n *\n * @param {number} milliseconds Milliseconds\n * @returns {{minutes: number, hours: number}} Time object\n *\n * @example\n * parseMillisecondsToTime(((1 * 60) + 15) * 60 * 1000);\n * //=> {hours: 1, minutes: 15}\n */\nfunction parseMillisecondsToTime(milliseconds) {\n  const timeInMinutes = secondsToMinutes(millisecondsToSeconds(milliseconds));\n\n  const minutes = timeInMinutes % MINUTES_IN_ONE_HOUR;\n  const hours = minutesToHours(timeInMinutes - minutes);\n\n  return {\n    minutes,\n    hours\n  };\n}\n\nexport default parseMillisecondsToTime;\n",
+    "static": true,
+    "longname": "E:/work/time-functions/src/parseMillisecondsToTime.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 65,
+    "kind": "function",
+    "name": "parseMillisecondsToTime",
+    "memberof": "src/parseMillisecondsToTime.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/parseMillisecondsToTime.js~parseMillisecondsToTime",
+    "access": "public",
+    "export": true,
+    "importPath": "time-functions/src/parseMillisecondsToTime.js",
+    "importStyle": "parseMillisecondsToTime",
+    "description": "Convert milliseconds to hours and minutes",
+    "examples": [
+      "parseMillisecondsToTime(((1 * 60) + 15) * 60 * 1000);\n//=> {hours: 1, minutes: 15}"
+    ],
+    "lineNumber": 16,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{{minutes: number, hours: number}} Time object"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "milliseconds",
+        "description": "Milliseconds"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "{minutes: number, hours: number}"
+      ],
+      "spread": false,
+      "description": "Time object"
+    }
+  },
+  {
+    "__docId__": 66,
+    "kind": "file",
+    "name": "src/secondsToMilliseconds.js",
+    "content": "import {MILLISECONDS_IN_ONE_SECOND} from './constants';\n\n/**\n * Convert seconds to milliseconds\n *\n * @param {number} seconds Seconds\n * @returns {number} Milliseconds\n *\n * @example\n * secondsToMilliseconds(1);\n * //=> 1000\n */\nfunction secondsToMilliseconds(seconds) {\n  return seconds * MILLISECONDS_IN_ONE_SECOND;\n}\n\nexport default secondsToMilliseconds;\n",
+    "static": true,
+    "longname": "E:/work/time-functions/src/secondsToMilliseconds.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 67,
+    "kind": "function",
+    "name": "secondsToMilliseconds",
+    "memberof": "src/secondsToMilliseconds.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/secondsToMilliseconds.js~secondsToMilliseconds",
+    "access": "public",
+    "export": true,
+    "importPath": "time-functions/src/secondsToMilliseconds.js",
+    "importStyle": "secondsToMilliseconds",
+    "description": "Convert seconds to milliseconds",
+    "examples": [
+      "secondsToMilliseconds(1);\n//=> 1000"
+    ],
+    "lineNumber": 13,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{number} Milliseconds"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "seconds",
+        "description": "Seconds"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "Milliseconds"
+    }
+  },
+  {
+    "__docId__": 68,
+    "kind": "file",
+    "name": "src/secondsToMinutes.js",
+    "content": "import {SECONDS_IN_ONE_MINUTE} from './constants';\n\n/**\n * Convert seconds to minutes\n *\n * @param {number} seconds Seconds\n * @returns {number} Minutes\n *\n * @example\n * secondsToMinutes(60);\n * //=> 1\n */\nfunction secondsToMinutes(seconds) {\n  return seconds / SECONDS_IN_ONE_MINUTE;\n}\n\nexport default secondsToMinutes;\n",
+    "static": true,
+    "longname": "E:/work/time-functions/src/secondsToMinutes.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 69,
+    "kind": "function",
+    "name": "secondsToMinutes",
+    "memberof": "src/secondsToMinutes.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/secondsToMinutes.js~secondsToMinutes",
+    "access": "public",
+    "export": true,
+    "importPath": "time-functions/src/secondsToMinutes.js",
+    "importStyle": "secondsToMinutes",
+    "description": "Convert seconds to minutes",
+    "examples": [
+      "secondsToMinutes(60);\n//=> 1"
+    ],
+    "lineNumber": 13,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{number} Minutes"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "seconds",
+        "description": "Seconds"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "Minutes"
+    }
+  },
+  {
+    "__docId__": 70,
+    "kind": "file",
+    "name": "src/__tests__/hoursToMinutes.js",
+    "content": "import test from 'ava';\r\nimport fn from '../hoursToMinutes';\r\n\r\ntest('test hoursToMinutes', t => {\r\n  t.is(fn(0), 0);\r\n  t.is(fn(1), 60);\r\n  t.is(fn(1.5), 90);\r\n  t.is(fn(2), 120);\r\n});\r\n",
+    "static": true,
+    "longname": "E:/work/time-functions/src/__tests__/hoursToMinutes.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 71,
+    "kind": "file",
+    "name": "src/__tests__/millisecondsToSeconds.js",
+    "content": "import test from 'ava';\r\nimport fn from '../millisecondsToSeconds';\r\n\r\ntest('test millisecondsToSeconds', t => {\r\n  t.is(fn(1000), 1);\r\n  t.is(fn(3000), 3);\r\n});\r\n",
+    "static": true,
+    "longname": "E:/work/time-functions/src/__tests__/millisecondsToSeconds.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 72,
+    "kind": "file",
+    "name": "src/__tests__/minutesToHours.js",
+    "content": "import test from 'ava';\r\nimport fn from '../minutesToHours';\r\n\r\ntest('test minutesToHours', t => {\r\n  t.is(fn(0), 0);\r\n  t.is(fn(60), 1);\r\n  t.is(fn(90), 1.5);\r\n});\r\n",
+    "static": true,
+    "longname": "E:/work/time-functions/src/__tests__/minutesToHours.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 73,
+    "kind": "file",
+    "name": "src/__tests__/minutesToSeconds.js",
+    "content": "import test from 'ava';\r\nimport fn from '../minutesToSeconds';\r\n\r\ntest('test minutesToSeconds', t => {\r\n  t.is(fn(0), 0);\r\n  t.is(fn(1), 60);\r\n  t.is(fn(1.5), 90);\r\n});\r\n",
+    "static": true,
+    "longname": "E:/work/time-functions/src/__tests__/minutesToSeconds.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 74,
+    "kind": "file",
+    "name": "src/__tests__/normalizeCycledMilliseconds.js",
+    "content": "import test from 'ava';\r\nimport fn from '../normalizeCycledMilliseconds';\r\n\r\ntest('test normalizeCycledMilliseconds', t => {\r\n  t.is(fn(0), 0);\r\n  t.is(fn(1000), 1000);\r\n\r\n  t.is(fn(-1000), 86399000);\r\n\r\n  const millisecondsInOneDayAndMore = 24 * 60 * 60 * 1000;\r\n\r\n  t.is(fn(millisecondsInOneDayAndMore + 1000), 1000);\r\n\r\n  t.is(fn(-(millisecondsInOneDayAndMore + 1000)), 86399000);\r\n});\r\n",
+    "static": true,
+    "longname": "E:/work/time-functions/src/__tests__/normalizeCycledMilliseconds.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 75,
+    "kind": "file",
+    "name": "src/__tests__/parseMillisecondsToTime.js",
+    "content": "import test from 'ava';\r\nimport fn from '../parseMillisecondsToTime';\r\n\r\ntest('test parseMillisecondsToTime', t => {\r\n  t.deepEqual(fn(((1 * 60) + 15) * 60 * 1000), {hours: 1, minutes: 15});\r\n});\r\n",
+    "static": true,
+    "longname": "E:/work/time-functions/src/__tests__/parseMillisecondsToTime.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 76,
+    "kind": "file",
+    "name": "src/__tests__/secondsToMilliseconds.js",
+    "content": "import test from 'ava';\r\nimport fn from '../secondsToMilliseconds';\r\n\r\ntest('test secondsToMilliseconds', t => {\r\n  t.is(fn(0), 0);\r\n  t.is(fn(1), 1000);\r\n});\r\n",
+    "static": true,
+    "longname": "E:/work/time-functions/src/__tests__/secondsToMilliseconds.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 77,
+    "kind": "file",
+    "name": "src/__tests__/secondsToMinutes.js",
+    "content": "import test from 'ava';\r\nimport fn from '../secondsToMinutes';\r\n\r\ntest('test secondsToMinutes', t => {\r\n  t.is(fn(0), 0);\r\n  t.is(fn(60), 1);\r\n  t.is(fn(90), 1.5);\r\n});\r\n",
+    "static": true,
+    "longname": "E:/work/time-functions/src/__tests__/secondsToMinutes.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "kind": "index",
+    "content": "# time-functions\r\n\r\n[![Commitizen friendly][commitizen-image]][commitizen-url]\r\n[![XO code style][codestyle-image]][codestyle-url]\r\n\r\n[![NPM version][npm-image]][npm-url]\r\n[![Build Status][travis-image]][travis-url]\r\n[![Coveralls Status][coveralls-image]][coveralls-url]\r\n[![Dependency Status][depstat-image]][depstat-url]\r\n[![DevDependency Status][depstat-dev-image]][depstat-dev-url]\r\n\r\n> Some time functions\r\n\r\n## Install\r\n\r\n```shell\r\nnpm install --save time-functions\r\n```\r\n\r\n## Usage\r\nSee: [example](example/app.jsx)\r\n\r\n```js\r\nvar foo = require('time-functions');\r\n\r\nfoo()\r\n//=> Foo\r\n```\r\n\r\n## API\r\n\r\n### foo(bar, [options])\r\n\r\n#### bar\r\n\r\nType: `string`\r\n\r\nBar to foo\r\n\r\n#### options\r\n\r\nType: `Object`\r\n\r\n##### baz\r\n\r\nType: `string`<br>\r\nDefault: `-`\r\n\r\n## License\r\nMIT © [Vladimir Rodkin](https://github.com/VovanR)\r\n\r\n[demo]: https://vovanr.github.io/time-functions\r\n\r\n[commitizen-url]: https://commitizen.github.io/cz-cli/\r\n[commitizen-image]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square\r\n\r\n[codestyle-url]: https://github.com/xojs/xo\r\n[codestyle-image]: https://img.shields.io/badge/code_style-XO-5ed9c7.svg?style=flat-square\r\n\r\n[npm-url]: https://npmjs.org/package/time-functions\r\n[npm-image]: https://img.shields.io/npm/v/time-functions.svg?style=flat-square\r\n\r\n[travis-url]: https://travis-ci.org/VovanR/time-functions\r\n[travis-image]: https://img.shields.io/travis/VovanR/time-functions.svg?style=flat-square\r\n\r\n[coveralls-url]: https://coveralls.io/r/VovanR/time-functions\r\n[coveralls-image]: https://img.shields.io/coveralls/VovanR/time-functions.svg?style=flat-square\r\n\r\n[depstat-url]: https://david-dm.org/VovanR/time-functions\r\n[depstat-image]: https://david-dm.org/VovanR/time-functions.svg?style=flat-square\r\n\r\n[depstat-dev-url]: https://david-dm.org/VovanR/time-functions\r\n[depstat-dev-image]: https://david-dm.org/VovanR/time-functions/dev-status.svg?style=flat-square\r\n",
+    "longname": "E:\\work\\time-functions\\README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"time-functions\",\n  \"version\": \"0.0.1\",\n  \"description\": \"Some time functions\",\n  \"license\": \"MIT\",\n  \"private\": true,\n  \"repository\": \"VovanR/time-functions\",\n  \"author\": \"Vladimir Rodkin <mail@vovanr.com> (https://github.com/VovanR)\",\n  \"engines\": {\n    \"node\": \">=6\"\n  },\n  \"scripts\": {\n    \"test\": \"xo && nyc ava\",\n    \"tdd\": \"ava -w\",\n    \"release-patch\": \"mversion patch\",\n    \"release-minor\": \"mversion minor\",\n    \"release-major\": \"mversion major\",\n    \"deploy\": \"npm run docs && gh-pages -d docs\",\n    \"docs\": \"esdoc\"\n  },\n  \"files\": [\n    \"index.js\"\n  ],\n  \"main\": \"index.js\",\n  \"keywords\": [],\n  \"dependencies\": {},\n  \"devDependencies\": {\n    \"ava\": \"^1.4.1\",\n    \"conventional-changelog-cli\": \"^2.0.12\",\n    \"coveralls\": \"^3.0.3\",\n    \"cross-env\": \"^5.2.0\",\n    \"cz-conventional-changelog\": \"^2.1.0\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"esm\": \"^3.2.22\",\n    \"gh-pages\": \"^2.0.1\",\n    \"husky\": \"^1.3.1\",\n    \"mversion\": \"^1.13.0\",\n    \"nyc\": \"^13.3.0\",\n    \"xo\": \"^0.24.0\"\n  },\n  \"peerDependencies\": {},\n  \"bugs\": {\n    \"url\": \"https://github.com/VovanR/time-functions/issues\"\n  },\n  \"homepage\": \"https://github.com/VovanR/time-functions#readme\",\n  \"config\": {\n    \"commitizen\": {\n      \"path\": \"./node_modules/cz-conventional-changelog\"\n    }\n  },\n  \"ava\": {\n    \"require\": [\n      \"esm\"\n    ]\n  },\n  \"xo\": {\n    \"space\": true,\n    \"rules\": {\n      \"unicorn/filename-case\": 0\n    }\n  }\n}\n",
+    "longname": "E:\\work\\time-functions\\package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]

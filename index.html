@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl">
+  <title data-ice="title">Home | time-functions</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Some time functions"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="time-functions"><meta property="twitter:description" content="Some time functions"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/VovanR/time-functions"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-hoursToMinutes">hoursToMinutes</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-millisecondsToSeconds">millisecondsToSeconds</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-minutesToHours">minutesToHours</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-minutesToSeconds">minutesToSeconds</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-normalizeCycledMilliseconds">normalizeCycledMilliseconds</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parseMillisecondsToTime">parseMillisecondsToTime</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-secondsToMilliseconds">secondsToMilliseconds</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-secondsToMinutes">secondsToMinutes</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-HOURS_IN_ONE_DAY">HOURS_IN_ONE_DAY</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MILLISECONDS_IN_ONE_SECOND">MILLISECONDS_IN_ONE_SECOND</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-MINUTES_IN_ONE_HOUR">MINUTES_IN_ONE_HOUR</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SECONDS_IN_ONE_MINUTE">SECONDS_IN_ONE_MINUTE</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="time-functions">time-functions</h1><p><a href="https://commitizen.github.io/cz-cli/"><img src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square" alt="Commitizen friendly"></a>
+<a href="https://github.com/xojs/xo"><img src="https://img.shields.io/badge/code_style-XO-5ed9c7.svg?style=flat-square" alt="XO code style"></a></p>
+<p><a href="https://npmjs.org/package/time-functions"><img src="https://img.shields.io/npm/v/time-functions.svg?style=flat-square" alt="NPM version"></a>
+<a href="https://travis-ci.org/VovanR/time-functions"><img src="https://img.shields.io/travis/VovanR/time-functions.svg?style=flat-square" alt="Build Status"></a>
+<a href="https://coveralls.io/r/VovanR/time-functions"><img src="https://img.shields.io/coveralls/VovanR/time-functions.svg?style=flat-square" alt="Coveralls Status"></a>
+<a href="https://david-dm.org/VovanR/time-functions"><img src="https://david-dm.org/VovanR/time-functions.svg?style=flat-square" alt="Dependency Status"></a>
+<a href="https://david-dm.org/VovanR/time-functions"><img src="https://david-dm.org/VovanR/time-functions/dev-status.svg?style=flat-square" alt="DevDependency Status"></a></p>
+<blockquote>
+<p>Some time functions</p>
+</blockquote>
+<h2 id="install">Install</h2><pre><code class="lang-shell"><code class="source-code prettyprint">npm install --save time-functions</code>
+</code></pre>
+<h2 id="usage">Usage</h2><p>See: <a href="example/app.jsx">example</a></p>
+<pre><code class="lang-js"><code class="source-code prettyprint">var foo = require(&apos;time-functions&apos;);
+
+foo()
+//=&gt; Foo</code>
+</code></pre>
+<h2 id="api">API</h2><h3 id="foo-bar---options--">foo(bar, [options])</h3><h4 id="bar">bar</h4><p>Type: <code>string</code></p>
+<p>Bar to foo</p>
+<h4 id="options">options</h4><p>Type: <code>Object</code></p>
+<h5 id="baz">baz</h5><p>Type: <code>string</code><br>
+Default: <code>-</code></p>
+<h2 id="license">License</h2><p>MIT &#xA9; <a href="https://github.com/VovanR">Vladimir Rodkin</a></p>
+</div>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
