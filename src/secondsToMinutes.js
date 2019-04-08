@@ -4,7 +4,7 @@ import {SECONDS_IN_ONE_MINUTE} from './constants';
  * Convert seconds to minutes
  *
  * @param {number} seconds Seconds
- * @returns {number} minutes
+ * @returns {number} Minutes
  *
  * @example
  * secondsToMinutes(60);

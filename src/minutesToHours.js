@@ -4,7 +4,7 @@ import {MINUTES_IN_ONE_HOUR} from './constants';
  * Convert minutes to hours
  *
  * @param {number} minutes Minutes
- * @returns {number} hours
+ * @returns {number} Hours
  *
  * @example
  * minutesToHours(60);

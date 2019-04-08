@@ -4,7 +4,7 @@ import {MILLISECONDS_IN_ONE_SECOND} from './constants';
  * Convert seconds to milliseconds
  *
  * @param {number} seconds Seconds
- * @returns {number} milliseconds
+ * @returns {number} Milliseconds
  *
  * @example
  * secondsToMilliseconds(1);

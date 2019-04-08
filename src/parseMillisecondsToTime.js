@@ -7,7 +7,7 @@ import minutesToHours from './minutesToHours';
  * Convert milliseconds to hours and minutes
  *
  * @param {number} milliseconds Milliseconds
- * @returns {{minutes: number, hours: number}} time object
+ * @returns {{minutes: number, hours: number}} Time object
  *
  * @example
  * parseMillisecondsToTime(((1 * 60) + 15) * 60 * 1000);
