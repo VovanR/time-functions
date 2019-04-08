@@ -1,15 +1,17 @@
-const {
-  SECONDS_IN_ONE_MINUTE
-} = require('./constants');
+import {SECONDS_IN_ONE_MINUTE} from './constants';
 
 /**
- * @param {number} seconds
+ * Convert seconds to minutes
+ *
+ * @param {number} seconds Seconds
  * @returns {number} minutes
  *
  * @example
  * secondsToMinutes(60);
  * //=> 1
  */
-module.exports = function (seconds) {
+function secondsToMinutes(seconds) {
   return seconds / SECONDS_IN_ONE_MINUTE;
-};
+}
+
+export default secondsToMinutes;

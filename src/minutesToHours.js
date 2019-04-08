@@ -1,15 +1,17 @@
-const {
-  MINUTES_IN_ONE_HOUR
-} = require('./constants');
+import {MINUTES_IN_ONE_HOUR} from './constants';
 
 /**
- * @param {number} minutes
+ * Convert minutes to hours
+ *
+ * @param {number} minutes Minutes
  * @returns {number} hours
  *
  * @example
  * minutesToHours(60);
  * //=> 1
  */
-module.exports = function (minutes) {
+function minutesToHours(minutes) {
   return minutes / MINUTES_IN_ONE_HOUR;
-};
+}
+
+export default minutesToHours;

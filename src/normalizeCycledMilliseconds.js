@@ -1,21 +1,21 @@
-const {
-  HOURS_IN_ONE_DAY
-} = require('./constants');
-const secondsToMilliseconds = require('./secondsToMilliseconds');
-const minutesToSeconds = require('./minutesToSeconds');
-const hoursToMinutes = require('./hoursToMinutes');
+import {HOURS_IN_ONE_DAY} from './constants';
+import secondsToMilliseconds from './secondsToMilliseconds';
+import minutesToSeconds from './minutesToSeconds';
+import hoursToMinutes from './hoursToMinutes';
 
 const MILLISECONDS_IN_ONE_DAY = secondsToMilliseconds(minutesToSeconds(hoursToMinutes(HOURS_IN_ONE_DAY)));
 
 /**
- * @param {number} milliseconds
+ * Cycle milliseconds within one day
+ *
+ * @param {number} milliseconds Milliseconds
  * @returns {number} milliseconds
  *
  * @example
- * normalizeCycledMilliseconds();
- * //=>
+ * normalizeCycledMilliseconds((24 * 60 * 60 * 1000) + 5000);
+ * //=> 5000
  */
-module.exports = function (milliseconds) {
+function normalizeCycledMilliseconds(milliseconds) {
   if (milliseconds >= 0) {
     if (milliseconds < MILLISECONDS_IN_ONE_DAY) {
       return milliseconds;
@@ -29,4 +29,6 @@ module.exports = function (milliseconds) {
   }
 
   return MILLISECONDS_IN_ONE_DAY + (milliseconds % MILLISECONDS_IN_ONE_DAY);
-};
+}
+
+export default normalizeCycledMilliseconds;

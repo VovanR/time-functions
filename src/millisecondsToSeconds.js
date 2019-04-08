@@ -1,15 +1,17 @@
-const {
-  MILLISECONDS_IN_ONE_SECOND
-} = require('./constants');
+import {MILLISECONDS_IN_ONE_SECOND} from './constants';
 
 /**
- * @param {number} milliseconds
+ * Convert milliseconds to seconds
+ *
+ * @param {number} milliseconds Milliseconds
  * @returns {number} seconds
  *
  * @example
  * millisecondsToSeconds(1000);
  * //=> 1
  */
-module.exports = function (milliseconds) {
+function millisecondsToSeconds(milliseconds) {
   return milliseconds / MILLISECONDS_IN_ONE_SECOND;
-};
+}
+
+export default millisecondsToSeconds;
