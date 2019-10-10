@@ -42,6 +42,12 @@ window.esdocSearchIndex = [
     "function"
   ],
   [
+    "time-functions/src/minutestomilliseconds.js~minutestomilliseconds",
+    "function/index.html#static-function-minutesToMilliseconds",
+    "<span>minutesToMilliseconds</span> <span class=\"search-result-import-path\">time-functions/src/minutesToMilliseconds.js</span>",
+    "function"
+  ],
+  [
     "time-functions/src/minutestoseconds.js~minutestoseconds",
     "function/index.html#static-function-minutesToSeconds",
     "<span>minutesToSeconds</span> <span class=\"search-result-import-path\">time-functions/src/minutesToSeconds.js</span>",
@@ -372,6 +378,12 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
+    "src/__tests__/minutestomilliseconds.js",
+    "file/src/__tests__/minutesToMilliseconds.js.html",
+    "src/__tests__/minutesToMilliseconds.js",
+    "file"
+  ],
+  [
     "src/__tests__/minutestoseconds.js",
     "file/src/__tests__/minutesToSeconds.js.html",
     "src/__tests__/minutesToSeconds.js",
@@ -423,6 +435,12 @@ window.esdocSearchIndex = [
     "src/minutestohours.js",
     "file/src/minutesToHours.js.html",
     "src/minutesToHours.js",
+    "file"
+  ],
+  [
+    "src/minutestomilliseconds.js",
+    "file/src/minutesToMilliseconds.js.html",
+    "src/minutesToMilliseconds.js",
     "file"
   ],
   [

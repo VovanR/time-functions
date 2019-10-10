@@ -1,7 +1,7 @@
 {
-  "coverage": "92.3%",
-  "expectCount": 13,
-  "actualCount": 12,
+  "coverage": "92.85%",
+  "expectCount": 14,
+  "actualCount": 13,
   "files": {
     "src/constants.js": {
       "expectCount": 4,
@@ -19,6 +19,11 @@
       "undocumentLines": []
     },
     "src/minutesToHours.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/minutesToMilliseconds.js": {
       "expectCount": 1,
       "actualCount": 1,
       "undocumentLines": []

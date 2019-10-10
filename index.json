@@ -845,6 +845,62 @@
   {
     "__docId__": 59,
     "kind": "file",
+    "name": "src/minutesToMilliseconds.js",
+    "content": "import {MILLISECONDS_IN_ONE_SECOND, SECONDS_IN_ONE_MINUTE} from './constants';\n\n/**\n * Convert minutes to milliseconds\n *\n * @param {number} minutes Minutes\n * @returns {number} Milliseconds\n *\n * @example\n * minutesToMilliseconds(1);\n * //=> 60000\n */\nfunction minutesToMilliseconds(minutes) {\n  return minutes * SECONDS_IN_ONE_MINUTE * MILLISECONDS_IN_ONE_SECOND;\n}\n\nexport default minutesToMilliseconds;\n",
+    "static": true,
+    "longname": "E:/work/time-functions/src/minutesToMilliseconds.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 60,
+    "kind": "function",
+    "name": "minutesToMilliseconds",
+    "memberof": "src/minutesToMilliseconds.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/minutesToMilliseconds.js~minutesToMilliseconds",
+    "access": "public",
+    "export": true,
+    "importPath": "time-functions/src/minutesToMilliseconds.js",
+    "importStyle": "minutesToMilliseconds",
+    "description": "Convert minutes to milliseconds",
+    "examples": [
+      "minutesToMilliseconds(1);\n//=> 60000"
+    ],
+    "lineNumber": 13,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{number} Milliseconds"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "minutes",
+        "description": "Minutes"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "Milliseconds"
+    }
+  },
+  {
+    "__docId__": 61,
+    "kind": "file",
     "name": "src/minutesToSeconds.js",
     "content": "import {SECONDS_IN_ONE_MINUTE} from './constants';\n\n/**\n * Convert minutes to seconds\n *\n * @param {number} minutes Minutes\n * @returns {number} Seconds\n *\n * @example\n * minutesToSeconds(1);\n * //=> 60\n */\nfunction minutesToSeconds(minutes) {\n  return minutes * SECONDS_IN_ONE_MINUTE;\n}\n\nexport default minutesToSeconds;\n",
     "static": true,
@@ -854,7 +910,7 @@
     "lineNumber": 1
   },
   {
-    "__docId__": 60,
+    "__docId__": 62,
     "kind": "function",
     "name": "minutesToSeconds",
     "memberof": "src/minutesToSeconds.js",
@@ -899,7 +955,7 @@
     }
   },
   {
-    "__docId__": 61,
+    "__docId__": 63,
     "kind": "file",
     "name": "src/normalizeCycledMilliseconds.js",
     "content": "import {HOURS_IN_ONE_DAY} from './constants';\nimport secondsToMilliseconds from './secondsToMilliseconds';\nimport minutesToSeconds from './minutesToSeconds';\nimport hoursToMinutes from './hoursToMinutes';\n\nconst MILLISECONDS_IN_ONE_DAY = secondsToMilliseconds(minutesToSeconds(hoursToMinutes(HOURS_IN_ONE_DAY)));\n\n/**\n * Cycle milliseconds within one day\n *\n * @param {number} milliseconds Milliseconds\n * @returns {number} Milliseconds\n *\n * @example\n * normalizeCycledMilliseconds((24 * 60 * 60 * 1000) + 5000);\n * //=> 5000\n */\nfunction normalizeCycledMilliseconds(milliseconds) {\n  if (milliseconds >= 0) {\n    if (milliseconds < MILLISECONDS_IN_ONE_DAY) {\n      return milliseconds;\n    }\n\n    return milliseconds % MILLISECONDS_IN_ONE_DAY;\n  }\n\n  if (milliseconds > -(MILLISECONDS_IN_ONE_DAY)) {\n    return MILLISECONDS_IN_ONE_DAY + milliseconds;\n  }\n\n  return MILLISECONDS_IN_ONE_DAY + (milliseconds % MILLISECONDS_IN_ONE_DAY);\n}\n\nexport default normalizeCycledMilliseconds;\n",
@@ -910,7 +966,7 @@
     "lineNumber": 1
   },
   {
-    "__docId__": 62,
+    "__docId__": 64,
     "kind": "variable",
     "name": "MILLISECONDS_IN_ONE_DAY",
     "memberof": "src/normalizeCycledMilliseconds.js",
@@ -931,7 +987,7 @@
     "ignore": true
   },
   {
-    "__docId__": 63,
+    "__docId__": 65,
     "kind": "function",
     "name": "normalizeCycledMilliseconds",
     "memberof": "src/normalizeCycledMilliseconds.js",
@@ -976,7 +1032,7 @@
     }
   },
   {
-    "__docId__": 64,
+    "__docId__": 66,
     "kind": "file",
     "name": "src/parseMillisecondsToTime.js",
     "content": "import {MINUTES_IN_ONE_HOUR} from './constants';\nimport secondsToMinutes from './secondsToMinutes';\nimport millisecondsToSeconds from './millisecondsToSeconds';\nimport minutesToHours from './minutesToHours';\n\n/**\n * Convert milliseconds to hours and minutes\n *\n * @param {number} milliseconds Milliseconds\n * @returns {{minutes: number, hours: number}} Time object\n *\n * @example\n * parseMillisecondsToTime(((1 * 60) + 15) * 60 * 1000);\n * //=> {hours: 1, minutes: 15}\n */\nfunction parseMillisecondsToTime(milliseconds) {\n  const timeInMinutes = secondsToMinutes(millisecondsToSeconds(milliseconds));\n\n  const minutes = timeInMinutes % MINUTES_IN_ONE_HOUR;\n  const hours = minutesToHours(timeInMinutes - minutes);\n\n  return {\n    minutes,\n    hours\n  };\n}\n\nexport default parseMillisecondsToTime;\n",
@@ -987,7 +1043,7 @@
     "lineNumber": 1
   },
   {
-    "__docId__": 65,
+    "__docId__": 67,
     "kind": "function",
     "name": "parseMillisecondsToTime",
     "memberof": "src/parseMillisecondsToTime.js",
@@ -1032,7 +1088,7 @@
     }
   },
   {
-    "__docId__": 66,
+    "__docId__": 68,
     "kind": "file",
     "name": "src/secondsToMilliseconds.js",
     "content": "import {MILLISECONDS_IN_ONE_SECOND} from './constants';\n\n/**\n * Convert seconds to milliseconds\n *\n * @param {number} seconds Seconds\n * @returns {number} Milliseconds\n *\n * @example\n * secondsToMilliseconds(1);\n * //=> 1000\n */\nfunction secondsToMilliseconds(seconds) {\n  return seconds * MILLISECONDS_IN_ONE_SECOND;\n}\n\nexport default secondsToMilliseconds;\n",
@@ -1043,7 +1099,7 @@
     "lineNumber": 1
   },
   {
-    "__docId__": 67,
+    "__docId__": 69,
     "kind": "function",
     "name": "secondsToMilliseconds",
     "memberof": "src/secondsToMilliseconds.js",
@@ -1088,7 +1144,7 @@
     }
   },
   {
-    "__docId__": 68,
+    "__docId__": 70,
     "kind": "file",
     "name": "src/secondsToMinutes.js",
     "content": "import {SECONDS_IN_ONE_MINUTE} from './constants';\n\n/**\n * Convert seconds to minutes\n *\n * @param {number} seconds Seconds\n * @returns {number} Minutes\n *\n * @example\n * secondsToMinutes(60);\n * //=> 1\n */\nfunction secondsToMinutes(seconds) {\n  return seconds / SECONDS_IN_ONE_MINUTE;\n}\n\nexport default secondsToMinutes;\n",
@@ -1099,7 +1155,7 @@
     "lineNumber": 1
   },
   {
-    "__docId__": 69,
+    "__docId__": 71,
     "kind": "function",
     "name": "secondsToMinutes",
     "memberof": "src/secondsToMinutes.js",
@@ -1144,7 +1200,7 @@
     }
   },
   {
-    "__docId__": 70,
+    "__docId__": 72,
     "kind": "file",
     "name": "src/__tests__/hoursToMinutes.js",
     "content": "import test from 'ava';\r\nimport fn from '../hoursToMinutes';\r\n\r\ntest('test hoursToMinutes', t => {\r\n  t.is(fn(0), 0);\r\n  t.is(fn(1), 60);\r\n  t.is(fn(1.5), 90);\r\n  t.is(fn(2), 120);\r\n});\r\n",
@@ -1155,7 +1211,7 @@
     "lineNumber": 1
   },
   {
-    "__docId__": 71,
+    "__docId__": 73,
     "kind": "file",
     "name": "src/__tests__/millisecondsToSeconds.js",
     "content": "import test from 'ava';\r\nimport fn from '../millisecondsToSeconds';\r\n\r\ntest('test millisecondsToSeconds', t => {\r\n  t.is(fn(1000), 1);\r\n  t.is(fn(3000), 3);\r\n});\r\n",
@@ -1166,7 +1222,7 @@
     "lineNumber": 1
   },
   {
-    "__docId__": 72,
+    "__docId__": 74,
     "kind": "file",
     "name": "src/__tests__/minutesToHours.js",
     "content": "import test from 'ava';\r\nimport fn from '../minutesToHours';\r\n\r\ntest('test minutesToHours', t => {\r\n  t.is(fn(0), 0);\r\n  t.is(fn(60), 1);\r\n  t.is(fn(90), 1.5);\r\n});\r\n",
@@ -1177,7 +1233,18 @@
     "lineNumber": 1
   },
   {
-    "__docId__": 73,
+    "__docId__": 75,
+    "kind": "file",
+    "name": "src/__tests__/minutesToMilliseconds.js",
+    "content": "import test from 'ava';\nimport fn from '../minutesToMilliseconds';\n\ntest('test minutesToMilliseconds', t => {\n  t.is(fn(0), 0);\n  t.is(fn(1), 60000);\n  t.is(fn(1.5), 90000);\n});\n",
+    "static": true,
+    "longname": "E:/work/time-functions/src/__tests__/minutesToMilliseconds.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 76,
     "kind": "file",
     "name": "src/__tests__/minutesToSeconds.js",
     "content": "import test from 'ava';\r\nimport fn from '../minutesToSeconds';\r\n\r\ntest('test minutesToSeconds', t => {\r\n  t.is(fn(0), 0);\r\n  t.is(fn(1), 60);\r\n  t.is(fn(1.5), 90);\r\n});\r\n",
@@ -1188,7 +1255,7 @@
     "lineNumber": 1
   },
   {
-    "__docId__": 74,
+    "__docId__": 77,
     "kind": "file",
     "name": "src/__tests__/normalizeCycledMilliseconds.js",
     "content": "import test from 'ava';\r\nimport fn from '../normalizeCycledMilliseconds';\r\n\r\ntest('test normalizeCycledMilliseconds', t => {\r\n  t.is(fn(0), 0);\r\n  t.is(fn(1000), 1000);\r\n\r\n  t.is(fn(-1000), 86399000);\r\n\r\n  const millisecondsInOneDayAndMore = 24 * 60 * 60 * 1000;\r\n\r\n  t.is(fn(millisecondsInOneDayAndMore + 1000), 1000);\r\n\r\n  t.is(fn(-(millisecondsInOneDayAndMore + 1000)), 86399000);\r\n});\r\n",
@@ -1199,7 +1266,7 @@
     "lineNumber": 1
   },
   {
-    "__docId__": 75,
+    "__docId__": 78,
     "kind": "file",
     "name": "src/__tests__/parseMillisecondsToTime.js",
     "content": "import test from 'ava';\r\nimport fn from '../parseMillisecondsToTime';\r\n\r\ntest('test parseMillisecondsToTime', t => {\r\n  t.deepEqual(fn(((1 * 60) + 15) * 60 * 1000), {hours: 1, minutes: 15});\r\n});\r\n",
@@ -1210,7 +1277,7 @@
     "lineNumber": 1
   },
   {
-    "__docId__": 76,
+    "__docId__": 79,
     "kind": "file",
     "name": "src/__tests__/secondsToMilliseconds.js",
     "content": "import test from 'ava';\r\nimport fn from '../secondsToMilliseconds';\r\n\r\ntest('test secondsToMilliseconds', t => {\r\n  t.is(fn(0), 0);\r\n  t.is(fn(1), 1000);\r\n});\r\n",
@@ -1221,7 +1288,7 @@
     "lineNumber": 1
   },
   {
-    "__docId__": 77,
+    "__docId__": 80,
     "kind": "file",
     "name": "src/__tests__/secondsToMinutes.js",
     "content": "import test from 'ava';\r\nimport fn from '../secondsToMinutes';\r\n\r\ntest('test secondsToMinutes', t => {\r\n  t.is(fn(0), 0);\r\n  t.is(fn(60), 1);\r\n  t.is(fn(90), 1.5);\r\n});\r\n",
