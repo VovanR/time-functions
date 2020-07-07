@@ -43,7 +43,7 @@
   "bugs": {
     "url": "https://github.com/VovanR/time-functions/issues"
   },
-  "homepage": "https://github.com/VovanR/time-functions#readme",
+  "homepage": "https://vovanr.github.io/time-functions",
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
