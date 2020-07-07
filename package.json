@@ -16,7 +16,8 @@
     "release-minor": "mversion minor",
     "release-major": "mversion major",
     "deploy": "npm run docs && gh-pages -d docs",
-    "docs": "esdoc"
+    "docs": "esdoc",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "files": [
     "index.js"
